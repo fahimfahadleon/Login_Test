@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:hint="email"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:id="@+id/emailtext"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:hint="password"
+        android:layout_margin="8dp"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:id="@+id/passwordtext"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:text="Submit"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:id="@+id/submitbutton"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:id="@+id/textview"/>
+</LinearLayout>
